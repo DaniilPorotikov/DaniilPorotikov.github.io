@@ -1,0 +1,123 @@
+ {
+    outline: 1px solid orange;
+}
+body {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 10px 0px;
+    background-color: #222;
+    font-family: "Verdana", sans-serif;
+    color: #D4D4D4;
+    font-size: 14px;
+}
+header {
+    margin: 0px;
+    margin-bottom: 10px;
+    padding: 10px, 80px;
+    background-color: #222;
+}
+nav {
+    padding: 33px 80px 0px;
+    margin-bottom: 16px;
+	font-size: 22px;
+}
+nav img {
+	width: 22px;
+}
+header,
+main,
+footer,
+div {
+    margin: 0px;
+}
+
+footer {
+    background-color: #131313;
+    padding: 0px 160px;
+}
+header ul {
+    display: inline-block;
+    list-style: none;
+    padding: 2px;
+    vertical-align: top;
+    max-width: 700px;
+}
+header li {
+    display: inline;
+    margin-right: 33px;
+}    
+h1 {
+    font-family: "Courier New", "Courier", serif;
+    color: #fff;
+    font-size: 45px;    
+}
+h2 {
+    font-family: "Courier New", serif;
+    color: #222;
+    font-size: 24px;
+    margin: 0px;
+    margin-bottom: 30px;
+    padding: 0px;
+}
+a{
+    color: #d4d4d4;
+    text-decoration: none;
+}
+
+.logo_img{
+    width: 60px;
+    padding: 0px;
+    margin-right: 60px;
+}
+.icon {
+    float: right;
+}
+.first_screen {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.block_heading {
+    width: 700px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.advantages {
+    display: flex;
+    margin: 0px;
+    padding: 40px 160px 35px;
+    background-color: #131313;
+    justify-content: space-between;
+}
+.advantages_element {
+    width: 180px;
+    padding: 45px 0px;
+}
+.content {
+    background-color: #ffffff;
+    color: #222;
+    padding: 60px 160px;
+}
+.description {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.element {
+   width: 440px; 
+}
+.element p {
+    margin-top: 35px;
+}
+.recomendation {
+    display: flex;
+    justify-content: space-between;
+    color: #131313;
+}
+.content li {
+    margin-left: 25px;
+    margin-bottom: 30px;
+    position: relative;
+}
